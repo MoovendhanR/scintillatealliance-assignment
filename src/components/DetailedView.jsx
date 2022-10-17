@@ -49,7 +49,7 @@ useEffect(() => {
         <Center>
         <br/>
         <Box >
-          {!isLoading? (
+          {lists? (
                <Box boxShadow={BoxShadow} p="20px" textAlign={"center"}>
                <Text as='b'textDecoration={"underline"}>
                    {`Name:${lists?.name}`}
